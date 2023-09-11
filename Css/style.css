@@ -264,7 +264,7 @@ span.socal-icon {
     border-radius: 16px;
     border: 4px solid #FF42A5;
     background-color: black;
-    
+
 }
 
 /* ========Downloads No Installs========== */
@@ -286,6 +286,10 @@ span.socal-icon {
     line-height: 60px;
     color: #0B0223;
 }
+
+/* .installs-title span {
+    color: #F948B2;
+} */
 
 .installs-description {
     color: #534C64;
