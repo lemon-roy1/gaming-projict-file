@@ -90,12 +90,13 @@ span.socal-icon {
 .banner-container {
     display: flex;
     gap: 68px;
-    /* margin-top: 20px; */
+    align-items: center;
 }
 
-.banner-content {
+/* .banner-content {
     margin: 150px 0px;
-}
+    width: 50%;
+} */
 
 .banner-content h3 {
     color: #0B0223;
@@ -114,6 +115,7 @@ span.socal-icon {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-right: 200px;
 }
 
 .banner-content>li {
@@ -168,9 +170,15 @@ span.socal-icon {
 }
 
 .banner-img img {
+    
     height: 85%;
 }
-
+.banner-img{
+    width: 50%;
+}
+.banner-content h3{
+    margin-right: 200px;
+}
 /* ==========Banner 02================== */
 .banner02-container {
     display: flex;
@@ -535,9 +543,6 @@ footer {
         margin: 0px;
         flex-direction: column-reverse;
     }
-    .banner-content{
-        padding: 25px;
-    }
     .banner-content>h3 {
         font-size: 39px;
     }
@@ -551,7 +556,7 @@ footer {
     } 
     
     .banner-img img {
-        width: 100%;
+        width: 80%;
     }
 
     .btn-group {
