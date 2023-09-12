@@ -170,15 +170,18 @@ span.socal-icon {
 }
 
 .banner-img img {
-    
+
     height: 85%;
 }
-.banner-img{
+
+.banner-img {
     width: 50%;
 }
-.banner-content h3{
+
+.banner-content h3 {
     margin-right: 200px;
 }
+
 /* ==========Banner 02================== */
 .banner02-container {
     display: flex;
@@ -295,10 +298,6 @@ span.socal-icon {
     line-height: 60px;
     color: #0B0223;
 }
-
-/* .installs-title span {
-    color: #F948B2;
-} */
 
 .installs-description {
     color: #534C64;
@@ -519,6 +518,7 @@ footer {
         text-align: center;
         margin: 0px;
     }
+
     nav {
         padding: 18px;
     }
@@ -543,6 +543,7 @@ footer {
         margin: 0px;
         flex-direction: column-reverse;
     }
+
     .banner-content>h3 {
         font-size: 39px;
     }
@@ -551,10 +552,10 @@ footer {
         font-size: 75px;
     }
 
-    .banner-content>li{
+    .banner-content>li {
         font-size: 18px;
-    } 
-    
+    }
+
     .banner-img img {
         width: 80%;
     }
@@ -586,9 +587,11 @@ footer {
     .games-card {
         margin-top: 30px;
     }
-    .games-description{
+
+    .games-description {
         font-size: 20px;
     }
+
     .games-card img,
     .installs-banner img {
         width: 80%;
@@ -597,14 +600,15 @@ footer {
 
     /* installs  */
 
-    .liner{
+    .liner {
         font-size: 50px;
     }
+
     .installs-container01 {
         gap: 0px;
     }
 
-    .installs-img{
+    .installs-img {
         visibility: hidden;
     }
 
@@ -619,13 +623,16 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         gap: 12px;
     }
+
     /* skill */
-    .careers{
+    .careers {
         flex-direction: column;
     }
-     .careers-image{
+
+    .careers-image {
         width: 100%
     }
+
     /* footer */
     .footer-container {
         width: 100%;
